@@ -10,4 +10,7 @@ class Account {
         $this->name = $name;
         $this->document = $document;
     }
+
 }
+
+?>
