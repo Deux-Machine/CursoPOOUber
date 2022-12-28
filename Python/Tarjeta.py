@@ -2,7 +2,7 @@ from Payment import Payment
 
 class Tarjeta(Payment):
     NombreTarjeta = str
-    NumeroTarjeta = str
+    NumeroTarjeta = int
     cvv = int
     fechaVencimiento = str
 
